@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE60083A14ACAC32003AC3B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60083914ACAC32003AC3B4 /* UIKit.framework */; };
+		FE60083C14ACAC32003AC3B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60083B14ACAC32003AC3B4 /* Foundation.framework */; };
+		FE60083E14ACAC32003AC3B4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE60083D14ACAC32003AC3B4 /* CoreGraphics.framework */; };
+		FE60084414ACAC32003AC3B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FE60084214ACAC32003AC3B4 /* InfoPlist.strings */; };
+		FE60084614ACAC32003AC3B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60084514ACAC32003AC3B4 /* main.m */; };
+		FE60084A14ACAC32003AC3B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60084914ACAC32003AC3B4 /* AppDelegate.m */; };
+		FE60084D14ACAC33003AC3B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60084C14ACAC33003AC3B4 /* ViewController.m */; };
+		FE60085014ACAC33003AC3B4 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE60084E14ACAC33003AC3B4 /* ViewController_iPhone.xib */; };
+		FE60085314ACAC33003AC3B4 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE60085114ACAC33003AC3B4 /* ViewController_iPad.xib */; };
+		FE60085C14ACAC50003AC3B4 /* KeyboardDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = FE60085B14ACAC50003AC3B4 /* KeyboardDriver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FE60083514ACAC32003AC3B4 /* AirturnSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirturnSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE60083914ACAC32003AC3B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FE60083B14ACAC32003AC3B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FE60083D14ACAC32003AC3B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FE60084114ACAC32003AC3B4 /* AirturnSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AirturnSample-Info.plist"; sourceTree = "<group>"; };
+		FE60084314ACAC32003AC3B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FE60084514ACAC32003AC3B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE60084714ACAC32003AC3B4 /* AirturnSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AirturnSample-Prefix.pch"; sourceTree = "<group>"; };
+		FE60084814ACAC32003AC3B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE60084914ACAC32003AC3B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE60084B14ACAC33003AC3B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE60084C14ACAC33003AC3B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE60084F14ACAC33003AC3B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		FE60085214ACAC33003AC3B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		FE60085A14ACAC50003AC3B4 /* KeyboardDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardDriver.h; sourceTree = "<group>"; };
+		FE60085B14ACAC50003AC3B4 /* KeyboardDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyboardDriver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE60083214ACAC32003AC3B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60083A14ACAC32003AC3B4 /* UIKit.framework in Frameworks */,
+				FE60083C14ACAC32003AC3B4 /* Foundation.framework in Frameworks */,
+				FE60083E14ACAC32003AC3B4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE60082A14ACAC32003AC3B4 = {
+			isa = PBXGroup;
+			children = (
+				FE60085914ACAC50003AC3B4 /* Driver */,
+				FE60083F14ACAC32003AC3B4 /* AirturnSample */,
+				FE60083814ACAC32003AC3B4 /* Frameworks */,
+				FE60083614ACAC32003AC3B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE60083614ACAC32003AC3B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE60083514ACAC32003AC3B4 /* AirturnSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE60083814ACAC32003AC3B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE60083914ACAC32003AC3B4 /* UIKit.framework */,
+				FE60083B14ACAC32003AC3B4 /* Foundation.framework */,
+				FE60083D14ACAC32003AC3B4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE60083F14ACAC32003AC3B4 /* AirturnSample */ = {
+			isa = PBXGroup;
+			children = (
+				FE60084814ACAC32003AC3B4 /* AppDelegate.h */,
+				FE60084914ACAC32003AC3B4 /* AppDelegate.m */,
+				FE60084B14ACAC33003AC3B4 /* ViewController.h */,
+				FE60084C14ACAC33003AC3B4 /* ViewController.m */,
+				FE60084E14ACAC33003AC3B4 /* ViewController_iPhone.xib */,
+				FE60085114ACAC33003AC3B4 /* ViewController_iPad.xib */,
+				FE60084014ACAC32003AC3B4 /* Supporting Files */,
+			);
+			path = AirturnSample;
+			sourceTree = "<group>";
+		};
+		FE60084014ACAC32003AC3B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FE60084114ACAC32003AC3B4 /* AirturnSample-Info.plist */,
+				FE60084214ACAC32003AC3B4 /* InfoPlist.strings */,
+				FE60084514ACAC32003AC3B4 /* main.m */,
+				FE60084714ACAC32003AC3B4 /* AirturnSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE60085914ACAC50003AC3B4 /* Driver */ = {
+			isa = PBXGroup;
+			children = (
+				FE60085A14ACAC50003AC3B4 /* KeyboardDriver.h */,
+				FE60085B14ACAC50003AC3B4 /* KeyboardDriver.m */,
+			);
+			name = Driver;
+			path = AirturnSample/Driver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE60083414ACAC32003AC3B4 /* AirturnSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE60085614ACAC33003AC3B4 /* Build configuration list for PBXNativeTarget "AirturnSample" */;
+			buildPhases = (
+				FE60083114ACAC32003AC3B4 /* Sources */,
+				FE60083214ACAC32003AC3B4 /* Frameworks */,
+				FE60083314ACAC32003AC3B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirturnSample;
+			productName = AirturnSample;
+			productReference = FE60083514ACAC32003AC3B4 /* AirturnSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE60082C14ACAC32003AC3B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Sizzit;
+			};
+			buildConfigurationList = FE60082F14ACAC32003AC3B4 /* Build configuration list for PBXProject "AirturnSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FE60082A14ACAC32003AC3B4;
+			productRefGroup = FE60083614ACAC32003AC3B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE60083414ACAC32003AC3B4 /* AirturnSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE60083314ACAC32003AC3B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60084414ACAC32003AC3B4 /* InfoPlist.strings in Resources */,
+				FE60085014ACAC33003AC3B4 /* ViewController_iPhone.xib in Resources */,
+				FE60085314ACAC33003AC3B4 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE60083114ACAC32003AC3B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE60084614ACAC32003AC3B4 /* main.m in Sources */,
+				FE60084A14ACAC32003AC3B4 /* AppDelegate.m in Sources */,
+				FE60084D14ACAC33003AC3B4 /* ViewController.m in Sources */,
+				FE60085C14ACAC50003AC3B4 /* KeyboardDriver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FE60084214ACAC32003AC3B4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE60084314ACAC32003AC3B4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FE60084E14ACAC33003AC3B4 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE60084F14ACAC33003AC3B4 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		FE60085114ACAC33003AC3B4 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE60085214ACAC33003AC3B4 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE60085414ACAC33003AC3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE60085514ACAC33003AC3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE60085714ACAC33003AC3B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirturnSample/AirturnSample-Prefix.pch";
+				INFOPLIST_FILE = "AirturnSample/AirturnSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FE60085814ACAC33003AC3B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AirturnSample/AirturnSample-Prefix.pch";
+				INFOPLIST_FILE = "AirturnSample/AirturnSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE60082F14ACAC32003AC3B4 /* Build configuration list for PBXProject "AirturnSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60085414ACAC33003AC3B4 /* Debug */,
+				FE60085514ACAC33003AC3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE60085614ACAC33003AC3B4 /* Build configuration list for PBXNativeTarget "AirturnSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE60085714ACAC33003AC3B4 /* Debug */,
+				FE60085814ACAC33003AC3B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE60082C14ACAC32003AC3B4 /* Project object */;
+}
