@@ -10,7 +10,7 @@ Airturn functions as a bluetooth keyboard, not more than that.
 Apple does not make it easy. Since we cannot read a keyboard directly we have to deal with a UITextField. 
 But you don't want a virtual keyboard appear when you disconnect the airturn, and the api can't tell you if you're using the virtual, or the external keyboard.
 So we have to make our "own" keyboard, by assigning the inputview to the UITextField.
-Since we don't want a keyboard, we make an UIView of 0x0 pixels, and that's our keyboard.
+Since we don't want a keyboard, we make an UIView of 0x0 pixels, and assign it as our keyboard.
 
 Since I saved you 50 bucks, you may want to give me a coffee.
 Donations are welcome on my paypal: aj.website@gmail.com
