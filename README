@@ -1,0 +1,12 @@
+Airturn is a great solution for musicians who use sheetmusic on their iPad.
+It gives you the possibillity to use your feet instead of your hands that you're using to play your instrument.
+There are alternatives, but they are not so popular.
+
+Airturn has a sample application for developers for $50, ridiculous price for such easy code.
+
+So, how does it work?
+Airturn functions as a bluetooth keyboard, not more than that.
+Apple does not make it easy. Since we cannot read a keyboard directly we have to deal with a UITextField. 
+But you don't want a virtual keyboard appear when you disconnect the airturn, and the api can't tell you if you're using the virtual, or the external keyboard.
+So we have to make our "own" keyboard, by assigning the inputview to the UITextField.
+Since we don't want a keyboard, we make an UIView of 0x0 pixels, and that's our keyboard.
