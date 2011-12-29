@@ -12,6 +12,6 @@ But you don't want a virtual keyboard appear when you disconnect the airturn, an
 So we have to make our "own" keyboard, by assigning the inputview to the UITextField.
 Since we don't want a keyboard, we make an UIView of 0x0 pixels, and that's our keyboard.
 
-Since I saved you 50 bucks, you can always buy me a coffee.
-Donations are welcome to paypal at aj.website@gmail.com
+Since I saved you 50 bucks, you may want to give me a coffee.
+Donations are welcome on my paypal: aj.website@gmail.com
 Thank you
